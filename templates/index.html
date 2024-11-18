@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Quality Prediction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        .container {
+            width: 60%;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #4CAF50;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        input[type="number"], input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #777;
+            margin-top: 30px;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: #4CAF50;
+        }
+
+        .footer a:hover {
+            color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Water Quality Prediction</h2>
+    <form action="/predict" method="POST">
+        <div class="form-group">
+            <label for="ph">pH</label>
+            <input type="number" step="any" name="ph" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Hardness">Hardness</label>
+            <input type="number" step="any" name="Hardness" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Solids">Solids</label>
+            <input type="number" step="any" name="Solids" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Chloramines">Chloramines</label>
+            <input type="number" step="any" name="Chloramines" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Sulfate">Sulfate</label>
+            <input type="number" step="any" name="Sulfate" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Conductivity">Conductivity</label>
+            <input type="number" step="any" name="Conductivity" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Organic_carbon">Organic Carbon</label>
+            <input type="number" step="any" name="Organic_carbon" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Trihalomethanes">Trihalomethanes</label>
+            <input type="number" step="any" name="Trihalomethanes" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Turbidity">Turbidity</label>
+            <input type="number" step="any" name="Turbidity" required>
+        </div>
+
+        <button type="submit">Predict Potability</button>
+    </form>
+</div>
+
+<div class="footer">
+    <p>Powered by <a href="#">Water Quality AI</a></p>
+</div>
+
+</body>
+</html>
