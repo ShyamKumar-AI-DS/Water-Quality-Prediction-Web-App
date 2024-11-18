@@ -22,17 +22,17 @@ Interactive visualizations (using libraries like Plotly or Matplotlib) and downl
 
 ## Requirements
 ### Hardware Requirements:
-•	Processor	: Pentium Dual Core 2.00GH
-•	Hard disk	: 120 GB
-•	RAM 		: 2GB (minimum)
-•	Keyboard	: 110 keys enhanced
+##### Processor	: Pentium Dual Core 2.00GH
+##### Hard disk	: 120 GB
+##### RAM 		: 2GB (minimum)
+##### Keyboard	: 110 keys enhanced
 
 ### Software Requirements:
-•	Operating system	: Windows7 (with service pack 1), 8, 8.1 ,10 and 11
-•	Language		: Python
-•	IDE 		- Visual Studio, Google Colab, Jupyter Notebook
-•	Framework 	- Stream-lit
-•	Machine Learning
+##### Operating system	: Windows7 (with service pack 1), 8, 8.1 ,10 and 11
+##### Language		: Python
+##### IDE 		- Visual Studio, Google Colab, Jupyter Notebook
+##### Framework 	- Stream-lit
+##### Machine Learning
 
 ## System Architecture
 ![Screenshot 2024-11-14 214435](https://github.com/user-attachments/assets/43153084-7471-487e-98d8-1093370ee23d)
